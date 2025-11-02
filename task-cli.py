@@ -28,7 +28,10 @@ def save_tasks_data(tasks_data:list[dict])->None:
 
 def assign_id(tasks_data:list[dict])->int:
     """It evaluated the highest id in our tasks and returns a new id which is (highest + 1)"""
-    last_task_index:int = len(tasks_data) - 1
+    if len(tasks_data > 0):
+        last_task_index:int = len(tasks_data) - 1
+    else:
+        last_task_index:int = 0
     highest_id:int = tasks_data[last_task_index]["id"]
     new_id:int = highest_id + 1
     return new_id
