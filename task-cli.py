@@ -145,10 +145,10 @@ def list_tasks(status: str = typer.Argument(None, show_default=False))->None:
     tasks_data = load_tasks_data()
     if status:
         filtered_data = []
+        title = f"Tasks {status}"
         for task in tasks_data:
             if task["status"] == status:
                 filtered_data.append(task)
-                title = f"Tasks {status}"
         print_task_table(filtered_data, title)
     else:
         filtered_data = tasks_data
