@@ -28,8 +28,8 @@ Rich
 Clone the repository (or download the files):
 
 ```
-git clone https://your-repository-url-here/taskmaster-cli.git
-cd tasktracker-cli
+git clone https://github.com/ArchitGadkari/CLI-task-tracker-app.git
+cd CLI-task-tracker-app
 ```
 
 Install the required packages:
