@@ -1,4 +1,4 @@
-# TaskMaster CLI
+# TaskTracker CLI
 
 A simple and efficient command-line task manager built with Python, Typer, and Rich.
 
