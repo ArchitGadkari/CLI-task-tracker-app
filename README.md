@@ -4,7 +4,7 @@ A simple and efficient command-line task manager built with Python, Typer, and R
 
 ## 📜 Description
 
-TaskMaster CLI is a tool to help you manage your to-do list directly from your terminal. You can add new tasks, update existing ones, mark them as in-progress or done, and list them out, all without leaving your command line.
+TaskTracker CLI is a tool to help you manage your to-do list directly from your terminal. You can add new tasks, update existing ones, mark them as in-progress or done, and list them out, all without leaving your command line.
 
 Tasks are stored locally in a tasks_data.json file, making the application portable and easy to back up.
 
