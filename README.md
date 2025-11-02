@@ -29,7 +29,7 @@ Clone the repository (or download the files):
 
 ```
 git clone https://your-repository-url-here/taskmaster-cli.git
-cd taskmaster-cli
+cd tasktracker-cli
 ```
 
 Install the required packages:
